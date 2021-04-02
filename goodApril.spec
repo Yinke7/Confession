@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['goodApril.py'],
-             pathex=['pack/', 'D:\\GitHubFiles\\Yinke7\\Confession'],
+             pathex=['pack', 'D:\\GitHubProject\\Confession'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True )
+          console=False , icon='heart.ico')
